@@ -1,5 +1,41 @@
 # CHANGELOG.md
 
+## [0.4.0] - 2026-07-06
+
+### Added
+- Password reset token model
+- Password reset service
+- Password reset endpoints
+- Forgot password page (frontend)
+- Reset password page (frontend)
+- Token verification for password reset
+- Password reset schemas
+
+### Changed
+- Updated login page with forgot password link
+- Updated dashboard with resend verification link
+
+---
+
+## [0.3.0] - 2026-07-06
+
+### Added
+- Email verification tokens
+- Email verification service
+- Email verification endpoints
+- Frontend email verification page
+- Frontend login page
+- Frontend registration page
+- Frontend dashboard
+- Protected layout component
+- Authentication API client
+- Zustand auth store
+
+### Changed
+- Updated auth endpoints to send verification emails
+
+---
+
 ## [0.2.0] - 2026-07-06
 
 ### Added
